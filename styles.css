@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--black);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.color-container {
+  width: 40rem;
+  padding: 1rem;
+  background-color: var( --color-sec);
+  color: var(--white);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.color-container > * {
+  margin-bottom: 2rem;
+}
+
+.count {
+  font-size: 3rem;
+  border: 1px solid var(--white);
+  margin:4px;
+  padding:5px
+}
+hr{
+  margin-top: 2em;
+}
+
+button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--white);
+  background-color: #000000;
+}
