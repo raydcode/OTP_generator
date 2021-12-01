@@ -2,8 +2,6 @@ const OTP = document.querySelectorAll('.count');
 
 const generateBtn = document.querySelector('.generator');
 
-console.log(OTP);
-
 const randomNumber = () => {
   const number = Math.floor(Math.random() * 10000).toString();
   const textarea = document.createElement('textarea');
